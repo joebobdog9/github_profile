@@ -9,7 +9,7 @@ require('whatwg-fetch') //--> not a typo, don't store as a var
 // es6 polyfills, powered by babel
 require("babel/register")
 
-var urls = [ 'https://api.github.com/users/paulesaad','https://api.github.com/users/paulesaad/repos' ]
+var urls = [ 'https://api.github.com/users/joebobdog9','https://api.github.com/users/joebobdog9/repos' ]
 
 var requests = urls.map((url) => fetch(url).then((r) => r.json()))
 
